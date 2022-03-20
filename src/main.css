@@ -1,0 +1,163 @@
+nav {
+  height: 60px;
+  color: #fff;
+  background-color: #3c51bd;
+}
+
+nav .btn {
+  margin: 0;
+}
+
+.toggle-sidebar {
+  padding: 15px;
+  font-size: 1.5em;
+  color: #fff !important;
+  background-color: #3c51bd;
+  border-radius: 0 5px 5px 0;
+}
+
+.box {
+  background-color: #fafafa;
+  margin: 20px;
+  height: 536px;
+  width: 232px;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+}
+
+.btn {
+  margin: 5px 10px 0 0;
+  padding-bottom: 0px !important;
+}
+
+.box-content {
+  background-color: #fff;
+  color: #707070;
+  padding: 0 10% 0.5rem 10%;
+}
+
+.box-header {
+  background-color: #fff;
+  border-radius: 15px 15px 0 0;
+}
+
+.kpi-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 0 20px 0;
+}
+
+.kpi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 15px 0 0 0;
+  height: 120px;
+}
+
+.kpi .name {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.percentage-progress .value {
+  font-size: 19px;
+  letter-spacing: 3%;
+  margin: 0 0 5px 0;
+  font-weight: 500;
+  color: #273dae;
+}
+
+.card-image {
+  height: 90px;
+  width: auto;
+}
+
+.kpi-progress {
+  padding-bottom: 15px;
+  border-bottom: 2px solid #fafafa;
+}
+
+.progress {
+  height: 0.7rem !important;
+}
+
+.kpi-detail {
+  border-top: 2px solid #e1e0e0;
+  padding: 10px 7% 0 10%;
+}
+
+.kpi-detail .title {
+  margin: 0;
+  color: #707070;
+  font-weight: 400;
+}
+
+.kpi-detail .description {
+  font-size: 12px;
+  color: #707070;
+  font-weight: 300;
+}
+
+.box-footer {
+  border-radius: 0 0 15px 15px;
+}
+
+.select-arrow .btn {
+  background-color: #fff;
+  color: #273dae;
+}
+
+.kpi-badge {
+  -webkit-transform: scale(1.3, 2) translate(0px, 3px);
+          transform: scale(1.3, 2) translate(0px, 3px);
+  color: #273dae;
+}
+
+.percentage {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #273dae;
+}
+
+ul {
+  list-style-type: style none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown {
+  position: absolute !important;
+  width: 330px;
+  -webkit-transform: translateX(-5%);
+          transform: translateX(-5%);
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.dropdown-item-list {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.dropdown-item-wrapper {
+  background-color: white !important;
+  padding: 5px 0;
+}
+
+.dropdown-item-wrapper :hover {
+  background-color: #e1e0e0 !important;
+}
+/*# sourceMappingURL=main.css.map */

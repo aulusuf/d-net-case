@@ -1,0 +1,153 @@
+$background: #f6f6f6;
+$blue: #273dae;
+$red: #fd5455;
+$lightblue: #3c51bd;
+$lightgray: #fafafa;
+$darkgray: #707070;
+$white: #fff;
+$gray: #e1e0e0;
+$cardBorderRad: 15px;
+$btnBorderRad: 50px;
+
+nav {
+  height: 60px;
+  color: $white;
+  background-color: $lightblue;
+  .btn {
+    margin: 0;
+  }
+}
+
+.toggle-sidebar {
+  // position: absolute;
+
+  padding: 15px;
+  font-size: 1.5em;
+  color: $white !important;
+  background-color: $lightblue;
+  border-radius: 0 5px 5px 0;
+}
+.box {
+  background-color: $lightgray;
+  margin: 20px;
+  height: 536px;
+  width: 232px;
+  box-shadow: 0 0.5rem 1rem rgba(#000, 0.15);
+  border-radius: $cardBorderRad;
+}
+
+.btn {
+  margin: 5px 10px 0 0;
+  padding-bottom: 0px !important;
+}
+
+.box-content {
+  background-color: $white;
+  color: $darkgray;
+  padding: 0 10% 0.5rem 10%;
+}
+.box-header {
+  background-color: $white;
+  border-radius: $cardBorderRad $cardBorderRad 0 0;
+}
+.kpi-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 20px 0;
+}
+.kpi {
+  display: flex;
+  align-items: flex-start;
+  padding: 15px 0 0 0;
+  height: 120px;
+  .name {
+    font-weight: 600;
+    font-size: 15px;
+  }
+}
+.percentage-progress {
+  .value {
+    font-size: 19px;
+    letter-spacing: 3%;
+    margin: 0 0 5px 0;
+    font-weight: 500;
+    color: $blue;
+  }
+}
+.card-image {
+  height: 90px;
+  width: auto;
+}
+.kpi-progress {
+  padding-bottom: 15px;
+  border-bottom: 2px solid $lightgray;
+}
+.progress {
+  height: 0.7rem !important;
+}
+
+.kpi-detail {
+  border-top: 2px solid $gray;
+  padding: 10px 7% 0 10%;
+  .title {
+    margin: 0;
+    color: $darkgray;
+    font-weight: 400;
+  }
+  .description {
+    font-size: 12px;
+    color: $darkgray;
+    font-weight: 300;
+  }
+}
+.box-footer {
+  // height: 200px;
+  border-radius: 0 0 $cardBorderRad $cardBorderRad;
+}
+
+.select-arrow {
+  .btn {
+    background-color: $white;
+    color: $blue;
+  }
+}
+.kpi-badge {
+  transform: scale(1.3, 2) translate(0px, 3px);
+  color: $blue;
+}
+
+.percentage {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: $blue;
+}
+
+ul {
+  list-style-type: style none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown {
+  position: absolute !important;
+
+  width: 330px;
+  transform: translateX(-5%);
+  overflow: hidden;
+  border-radius: 10px;
+}
+.dropdown-item-list {
+  padding: 10px 20px;
+  // border-bottom: 1px solid $gray;
+  cursor: pointer;
+}
+.dropdown-item-wrapper {
+  background-color: white !important;
+  padding: 5px 0;
+
+  :hover {
+    background-color: $gray !important;
+  }
+}
