@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# D-Net Case
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PT. Jaga Sejahtera merupakan perusahan yang bergerak dibidang teknologi, yang pada tahun 2021 achievement perusahaan tersebut sangat fantastis. Untuk menjaga performance tersebut management hendak membuat aplikasi KPI terhadap masing masing karyawan. Mohon untuk dibuatkan design aplikasi menggunakan react JS.
 
-## Available Scripts
+## Getting Started
+This project is built by React JS.
 
-In the project directory, you can run:
+### Instalation
+1. You need to clone this github repository with git clone.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```sh
+git clone https://github.com/aulusuf/d-net-case.git
+```
+2. Move to the local repository or folder where you do git-clone, or like
+```sh
+cd d-net-case
+```
+3. then
+```sh
+npm install
+```
+4. Dont forget to push to your own repository on your github
+_The project is ready to deploy_
 
 ### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Go to any free deployment site or if you have one it would be better :). For this case, I would recommend to use [VERCEL](https://vercel.com/). You can login or register using your Github account or if you have the account, you can click New Project button on the dashboard.
+2. Import the repository that you push earlier.
+3. On Configure Project, click Build and Output Setting. Override Build Command field with
+`CI='' npm run build`
+4. Click Deploy. Wait the project to be deployed. Dont be haste. Grab your coffee and wait.
+5. The project is finished. You can click button Visit to see your project.
